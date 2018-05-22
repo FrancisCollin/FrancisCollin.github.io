@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<div class="container-fluid no-gutters-div">
+    <div class="row no-gutters">
+        <div class="col-12 no-gutters-div">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img class="logo" src="Medias/Canvas-Shoes-Logo.jpg"/></a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="formulaire.html">Formulaire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagelibre.html#">Page libre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jeu.html">Jeu</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+
+<div class="row no-gutters selection">
+    <div class="col-12">
+    <h1 class="text-center selection">- Formulaire d'achat -</h1>
+    </div>
+</div>
+<form class="formulaire" id="print-content">
+    <div class="form-row">
+        <div class="form-group col-xl-6 col-sm-12">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-xl-6 col-sm-12">
+            <label for="inputPassword4">Mot de passe</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Adresse</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Avenue ...">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress2">Adresse 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartement, studio, ou étage">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Ville</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Province</label>
+            <select id="inputState" class="form-control">
+                <option selected>Choisir...</option>
+                <option>Québec</option>
+                <option>Québec</option>
+                <option>Québec</option>
+                <option>Désoler, nous livrons seulement au Québec</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">Code Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-4">
+        <label for="shoesselect">Choisir vos souliers</label>
+        <select id="shoesselect" class="form-control">
+            <option selected>Choisir...</option>
+            <option>Souliers 1</option>
+            <option>Souliers 2</option>
+            <option>Souliers 3</option>
+            <option>Souliers 4</option>
+            <option>Souliers 5</option>
+            <option>Souliers 6</option>
+            <option>Souliers 7</option>
+            <option>Souliers 8</option>
+            <option>Souliers 9</option>
+        </select>
+    </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Valider
+            </label>
+        </div>
+    </div>
+
+    <button onclick="window.location.href='https://www.paypal.com/ca/home'" type="submit" class="btn btn-primary">Payer</button>
+    <button type="submit" class="btn btn-primary" onclick="printDiv('print-content')">Imprimer</button>
+</form>
+<div class="row no-gutters" id="piedpage">
+    <div class="col-6 piedpage">
+        <p class="citation">Olivier Rousseau - "This is the best shoes shop ever, I'm really happy with my new shoes"</p>
+    </div>
+    <div class="col-6 piedpage">
+        <p class="citation">Donald Trump - "Great quality for the price, amazing!"</p>
+    </div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/MonScript.js"></script>
+</body>
+</html>

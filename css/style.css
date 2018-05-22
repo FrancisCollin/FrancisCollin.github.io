@@ -1,0 +1,120 @@
+
+.no-gutters-div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.texte-banniere{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.centrer-div{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contacte{
+    padding-top: 5px;
+    background-color: orangered;
+}
+.contacte2{
+    background-color: red;
+}
+
+.box{
+    border: 5px solid black;
+    background-color: maroon;
+}
+
+.blanc{
+    color:whitesmoke;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar{
+    background-color: #b9bbbe;
+}
+
+.piedpage{
+    background-color: #b9bbbe;
+}
+
+.citation{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.rel{
+    position: relative;
+    width: 300px;
+    height: 512px;
+
+}
+
+.shoes1, .shoes2, .shoes3, .shoes4, .shoes5, .shoes6, .shoes7, .shoes8, .shoes9{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.over{
+    z-index: 999;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
+.selection{
+    background-color: black;
+    color: white;
+}
+
+.background{
+    position: fixed;
+background-color: tomato;
+}
+
+.formulaire{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-color: tomato;
+}
+
+.orange{
+    background-color: tomato;
+}
+
+.box2{
+    border-top: 5px dashed whitesmoke;
+    border-bottom: 5px dashed whitesmoke;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+.a:hover
+{
+    color:#00A0C6;
+    text-decoration:none;
+    cursor:pointer;
+}
